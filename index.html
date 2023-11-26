@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CDN Link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Game App | Game Website Using Html Css and Js</title>
+</head>
+<body>
+    <header >
+        <aside>
+            <h1>Game <i class="bi bi-joystick"></i></h1>
+            <button>Get Game Prime</button>
+            <ul>
+                <li class="active_li"><a href="#"><i class="bi bi-archive"></i> Browse</a></li>
+                <li><a href="#"><i class="bi bi-clipboard-check-fill">Channels</i></a></li>
+                <li><a href="#"><i class="bi bi-calendar-event-fill">Events</i></a></li>
+                <li><a href="#"><i class="bi bi-people-fill">Friends</i></a></li>
+                <li><a href="#"><i class="bi bi-controller">Games</i></a></li>
+                <li><a href="#"><i class="bi bi-bookmark-check-fill">Store</i></a></li>
+            </ul>
+            <!--- subscriptions box start-->
+            <div class="subscriptions">
+                <h5>Subscriptions</h5>
+                <div class="cards">
+                    <div class="card">
+                        <div class="img_box">
+                            <img src="images/user1.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h6>Anna Pal[KDS CODER]</h6>
+                            <p>GTA V</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img_box">
+                            <img src="images/user2.JPG" alt="">
+                        </div>
+                        <div class="content">
+                            <h6>Anna Pal[KDS CODER]</h6>
+                            <p>GTA V</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img_box">
+                            <img src="images/user3.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h6>Anna Pal[KDS CODER]</h6>
+                            <p>GTA V</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img_box">
+                            <img src="images/user4.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h6>Anna Pal[KDS CODER]</h6>
+                            <p>GTA V</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img_box">
+                            <img src="images/user6.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h6>Anna Pal[KDS CODER]</h6>
+                            <p>GTA V</p>
+                        </div>
+                    </div>
+                    <!---- all cars data changed-->
+                </div>
+
+            </div>
+        </aside>
+        <article>
+            <nav>
+                <button>Stream</button>
+                <div class="search">
+                    <input type="text" placeholder="Search...">
+                    <i class="bi bi-search"></i>
+                </div>
+                <div class="right_box">
+                    <i class="bi bi-moon-fill" id="day_night"></i>
+                    <i class="bi bi-brightness-high-fill" id="day_night2"></i>
+                   <i class="bi bi-wifi" id="wifi_symbol"></i>
+                   <i class="bi bi-gear-fill"></i>
+                   <button id="active_battery"><i class="bi bi-battery-half" id="battery_icon"></i><span id="battery_level">84%</span></button>
+                   <div class="user_data">
+                    <h6>Anna Pal [CDK CODER]</h6>
+                    <h5>JK</h5>
+                    <i class="bi bi-caret-down-fill"></i>
+                    <div class="card">
+                        <img src="images/user1.png" alt="">
+                        <h6>Anna Pal[KDS CODER]</h6>
+                        <p>GTA V</p>
+                        <button>Premium</button>
+                        <img class="card_gta_img" src="images/GTA V Premium.webp" alt="">
+                    </div>
+                   </div>
+                </div>
+
+            </nav>
+            <!--Game Box Start-->
+            <div class="game1">
+                <div class="btns">
+                    <i class="bi bi-caret-left-fill" id="game_bx_1_left_btn"></i>
+                    <i class="bi bi-caret-right-fill" id="game_bx_1_right_btn"></i>
+                </div>
+                <h3>Recommend For You</h3>
+                <div class="game_bx" id="game_bx_1">
+                    <div class="card">
+                        <img src="images/GTA V Premium.webp" atl="">
+                        <div class="content">
+                            <div class="left">
+                                <h5>Grand Theft Auto V</h5>
+                                <p>Anna Pal[KDS CODER]</p>
+
+                            </div>
+                            <h6>356, 452 Views</h6>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Free Fire.webp" atl="">
+                        <div class="content">
+                            <div class="left">
+                                <h5>Final Ground Battle</h5>
+                                <p>van[RPT]</p>
+
+                            </div>
+                            <h6>435,452 Views</h6>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Ghost Recon Frontline.webp" atl="">
+                        <div class="content">
+                            <div class="left">
+                                <h5>Fight Against Ghost</h5>
+                                <p>Preme[VARIER]</p>
+
+                            </div>
+                            <h6>930, 452 Views</h6>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/PUBG.webp" atl="">
+                        <div class="content">
+                            <div class="left">
+                                <h5>Chiken Dinner</h5>
+                                <p>Suprajaa[WINNER]</p>
+
+                            </div>
+                            <h6>123,33,452 Views</h6>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Sniper 2 Ghost Warrioe.webp" atl="">
+                        <div class="content">
+                            <div class="left">
+                                <h5>Ghost Warrioe</h5>
+                                <p>pankajam[GHOST]</p>
+
+                            </div>
+                            <h6>456, 452 Views</h6>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Warface undercover.webp" atl="">
+                        <div class="content">
+                            <div class="left">
+                                <h5>Warface UnderCover</h5>
+                                <p>Yamini[KDS CODER]</p>
+
+                            </div>
+                            <h6>356, 452 Views</h6>
+                        </div>
+                    </div>
+                        <div class="card">
+                            <img src="images/Board Game.webp" atl="">
+                            <div class="content">
+                                <div class="left">
+                                    <h5>Game With Borad</h5>
+                                    <p>Rahul[PRO]</p>
+    
+                                </div>
+                                <h6>245, 930 Views</h6>
+                            </div>
+                        </div>    
+                <!--All card data changes-->
+                    
+                </div>
+            </div>
+            <!--Game Box 2 start-->
+             <div class="game2">
+                <h3>Most Played</h3>
+                <div class="games_bx">
+                    <div class="card">
+                        <img src="images/Unchaetes4.Jpg" alt="">
+                        <div class="content">
+                            <h6>Unchaetes 4</h6>
+                            <p>5421 Streams</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Call Of Duty.png" alt="">
+                        <div class="content">
+                            <h6>Call Of Duty</h6>
+                            <p>6432 Streams</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Project IGI.png" alt="">
+                        <div class="content">
+                            <h6>IGI 2</h6>
+                            <p>1234 Streams</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/cropped-Battlefield-2042.png" alt="">
+                        <div class="content">
+                            <h6>BATTLEFIELD 2024</h6>
+                            <p>2345 Streams</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/HitMan.png" alt="">
+                        <div class="content">
+                            <h6>HITMAN</h6>
+                            <p>3456 Streams</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Iron man.png" alt="">
+                        <div class="content">
+                            <h6>IRON MAN</h6>
+                            <p>4567</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/BROTHERS_IN_ARMS.png" alt="">
+                        <div class="content">
+                            <h6>BROTHER IN ARMS</h6>
+                            <p>5678 Streams</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Medal Of Honer.png" alt="">
+                        <div class="content">
+                            <h6>MEDEL OF HONOR</h6>
+                            <p>6789 Streams</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/KAI-125.png" alt="">
+                        <div class="content">
+                            <h6>HOLO KAI-125</h6>
+                            <p>7890 Streams</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Max_Payen.png" alt="">
+                        <div class="content">
+                            <h6>MAX PAYEN</h6>
+                            <p>8901 Streams</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/triange_strategy.png" alt="">
+                        <div class="content">
+                            <h6>TRIANGLE STRATEGY</h6>
+                            <p>9012 Streams</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/avengers.png" alt="">
+                        <div class="content">
+                            <h6>AVENGERS</h6>
+                            <p>1029 Streams</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/cyberpunk.png" alt="">
+                        <div class="content">
+                            <h6>CYBERPUNK</h6>
+                            <p>3498 Streams</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/the last of us.png" alt="">
+                        <div class="content">
+                            <h6>THE LAST OF US</h6>
+                            <p>5678 Streams</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/metal Grear solid.png" alt="">
+                        <div class="content">
+                            <h6>METEL GEAR SOLID</h6>
+                            <p>5432 Streams</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/san dress.png" alt="">
+                        <div class="content">
+                            <h6>SAN ANDREAS</h6>
+                            <p>9876 Streams</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Zelda.png" alt="">
+                        <div class="content">
+                            <h6>ZELDA</h6>
+                            <p>8765 Streams</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Elden_ring.png" alt="">
+                        <div class="content">
+                            <h6>ELDEN RING</h6>
+                            <p>8765 Streams</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Super.png" alt="">
+                        <div class="content">
+                            <h6>SUPER SMASH BROS</h6>
+                            <p>7654 Streams</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Skyrim.png.jpg" alt="">
+                        <div class="content">
+                            <h6>SKYRIM</h6>
+                            <p>6554 Streams</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Spider.png" alt="">
+                        <div class="content">
+                            <h6>SPIDER MAN</h6>
+                            <p>5432 Streams</p>
+                        </div>                   
+                    </div>
+                    <div class="card">
+                        <img src="images/Super Mario Odyssey.png" atl="">
+                        <div class="content">
+                            <h6>SUPER MARIO ODYSSEY</h6>
+                            <p>4321 Streams</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Counter.png" alt="">
+                        <div class="content">
+                            <h6>COUNTER STRIKE</h6>
+                            <p>3210 Streams</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/League.png" alt="">
+                        <div class="content">
+                            <h6>LEAGUE of LEGENDS</h6>
+                            <p>2109 Streams</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Roblox.png" alt="">
+                        <div class="content">
+                            <h6>ROBLOX</h6>
+                            <p>1111 Streams</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Rocket League.png" alt="">
+                        <div class="content">
+                            <h6>ROCKET LEAGUE</h6>
+                            <p>2222 Streams</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/overwatch.png" alt="">
+                        <div class="content">
+                            <h6>OVERWEATCH</h6>
+                            <p>3333 Streams</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Red DEAD.png" alt="">
+                        <div class="content">
+                            <h6>RED DEAD REDEMPTION II</h6>
+                            <p>4444 Streams</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="images/Wii_Play_Boxart.png" alt="">
+                        <div class="content">
+                            <h6>Wii PLAY BOXART</h6>
+                            <p>6666 Streams</p>
+                        </div>
+                    </div>
+
+                </div>
+             </div>
+
+        </article>
+    </header>
+    <script src="app.js"></script>
+</body>
+</html>
